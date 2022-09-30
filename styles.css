@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 33%;
+    height: 100%;
+
+}
+.bg-custom{
+    background-color: #353A40;
+}
+@media screen and (min-width: 576px){
+    .navbar-expand-sm .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+header{
+    background-color: #353A40;
+}
+.bg-img{
+    background-color: #333;
+    background-image: url("imagenes/ba1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+   
+}
+.conferencia{
+    color: white;
+
+}
+#ticketsverde{
+    color: green;
+}
+#conferenciablanca{
+    color: white;
+}
+#navgris{
+    color: #969DA2;
+}
+.conferenciah2{
+    color: white;
+    text-align: right;
+}
+.textoblanco{
+    color: white;
+    text-align: right;
+}
+.btn-outline-secondary{
+    text-align: right;
+}
+
+#reactblanco{
+    color: white;
+}
